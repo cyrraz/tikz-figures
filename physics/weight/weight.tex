@@ -12,7 +12,7 @@
 \node at (0,-0.2) {$M$};
 \node[object,fill=white] (m) at ($(M.north)+(0,0.3)$) {};
 \node at ($(m.center)+(0,0.1)$) {$m$};
-\draw[force] (m.center) -- (M.center) node[midway,right] {$\vec{F}_g$};
+\draw[force] (m.center) -- ($(M.center)+(0,0.5)$) node[midway,right] {$\vec{F}_g$};
 \draw[<->] ($(M.center)+(-1.7,0)$) -- node[midway,left] {$R$} ($(M.north)+(-1.7,0)$);
 \end{tikzpicture}
 \end{document}
